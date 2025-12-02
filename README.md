@@ -102,4 +102,4 @@ body { background: #0c3066; }
 ## 📄 Documentation Versions
 
 * 🇬🇧 English (current)
-**[English Version](./persian-README.md)**
+**[Persian Version](./persian-README.md)**
