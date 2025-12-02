@@ -1,0 +1,292 @@
+/* ======= GLOBAL DARK-NEON UI ======= */
+body {
+    background: radial-gradient(circle at 20% 20%, #0d1117, #050608) !important;
+    font-family: 'Inter', sans-serif !important;
+  }
+  
+  /* ======= CUSTOM HEADER ======= */
+  .custom-header {
+    width: 100%;
+    background: rgba(22, 27, 34, 0.7);
+    backdrop-filter: blur(10px);
+    padding: 18px 25px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .custom-header img {
+    height: 42px;
+  }
+  
+  .custom-header-title {
+    color: #48a6ff;
+    font-size: 22px;
+    margin-left: 12px;
+    font-weight: 600;
+  }
+  
+  /* ======= API CARDS ======= */
+  .swagger-ui .opblock {
+    border-radius: 14px !important;
+    background: rgba(28, 33, 40, 0.45) !important;
+    backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255,255,255,0.05) !important;
+    margin-bottom: 25px !important;
+    overflow: hidden;
+    transition: 0.25s ease;
+  }
+  
+  .swagger-ui .opblock:hover {
+    transform: translateY(-3px);
+    border-color: rgba(72,166,255,0.4) !important;
+  }
+  
+  /* ======= OPERATION BAR ======= */
+  .opblock-summary {
+    background: rgba(2, 4, 9, 0.7) !important;
+    backdrop-filter: blur(6px);
+    padding: 18px !important;
+  }
+  
+  /* Request verbs styling */
+  .opblock-post {
+    border-left: 5px solid #00d26a !important;
+  }
+  .opblock-get {
+    border-left: 5px solid #48a6ff !important;
+  }
+  .opblock-delete {
+    border-left: 5px solid #ff4757 !important;
+  }
+  .opblock-put {
+    border-left: 5px solid #ffa502 !important;
+  }
+  
+  /* ======= INPUTS ======= */
+  .swagger-ui input,
+  .swagger-ui select,
+  .swagger-ui textarea {
+    background: rgba(0, 0, 0, 0.35) !important;
+    color: #e6edf3 !important;
+    border-radius: 8px !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    padding: 10px 14px !important;
+  }
+  
+  /* ======= BUTTONS ======= */
+  .swagger-ui .btn {
+    border-radius: 10px !important;
+    padding: 10px 20px !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+
+  .swagger-ui .btn-group {
+    gap: 20px;
+  }
+  .swagger-ui .btn.execute {
+    background: linear-gradient(90deg, #00d26a, #00b05c) !important;
+    border-color: #237d50;
+  }
+  
+  .swagger-ui .btn.cancel {
+    background: rgba(255,255,255,0.12) !important;
+  }
+  
+  /* ======= RESPONSE BOX ======= */
+  .swagger-ui .responses-wrapper,
+  .swagger-ui .model-box,
+  .swagger-ui table {
+    background: rgba(15, 18, 22, 0.55) !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(255,255,255,0.05) !important;
+  }
+  
+  /* ======= REMOVE DEFAULT TOPBAR ======= */
+  .swagger-ui .topbar {
+    display: none !important;
+  }
+  
+  /* ======= LINKS ======= */
+  .swagger-ui a {
+    color: #48a6ff !important;
+  }
+  /* ==== FIX WHITE SERVER BOX ==== */
+.swagger-ui .servers,
+.swagger-ui .servers-title,
+.swagger-ui .servers-wrapper,
+.swagger-ui .servers-container,
+.swagger-ui .servers select,
+.swagger-ui .servers .servers-select {
+  background: transparent !important;
+  color: #e6edf3 !important;
+}
+
+/* Main server item box */
+.swagger-ui .server-info {
+  background: rgba(28, 33, 40, 0.45) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 12px !important;
+  padding: 12px 16px !important;
+  color: #e6edf3 !important;
+  display: inline-block !important;
+}
+
+/* URL text itself */
+.swagger-ui .server-url {
+  color: #9cc9ff !important;
+  font-weight: 500 !important;
+}
+
+/* Description */
+.swagger-ui .server-description {
+  color: #b9c4d0 !important;
+}
+
+/* Dropdown arrow */
+.swagger-ui .servers select {
+  background: rgba(0, 0, 0, 0.84) !important;
+  border: 1px solid rgba(255,255,255,0.1) !important;
+  border-radius: 10px;
+  padding: 8px 10px;
+}
+
+/* Remove white strip */
+.swagger-ui .servers-wrapper {
+  box-shadow: none !important;
+}
+
+.opblock-summary-description {
+    color: #fff;
+}
+
+.swagger-ui .scheme-container {
+    background: #0b0e13;
+}
+
+.opblock-section-header {
+ background: hsl(216, 23.1%, 12.7%)
+}
+
+.swagger-ui .renderedMarkdown p {
+    color: #fff;
+}
+
+.swagger-ui .opblock .opblock-section-header {
+ background: hsl(215, 17.6%, 13.3%);
+}
+
+.swagger-ui .btn {
+    background: #070a0f;
+  border-color: #ffffff2b;
+  color: #fff;
+}
+
+.swagger-ui .opblock .opblock-summary-description {
+    color: #c4c4c4;
+}
+
+.swagger-ui a {
+    color: #fff !important;
+}
+
+.swagger-ui .response-col_description {
+    color : #fff;
+}
+
+.swagger-ui .opblock .opblock-section-header h4 {
+    color: #fff;
+}
+
+.swagger-ui .response-col_status {
+    color: #fff;
+}
+
+.swagger-ui .authorization__btn {
+    filter: invert(0.85);    
+}
+
+.swagger-ui .parameters-col_description {
+    color: #d2d2d2; 
+}
+
+.swagger-ui table thead tr td, .swagger-ui table thead tr th {
+    color: #d2d2d2; 
+}
+
+.swagger-ui .parameter__name.required {
+    color: #d2d2d2;
+}
+
+.swagger-ui .parameter__type {
+    color: #d2d2d2;
+}
+
+.swagger-ui .parameter__extension, .swagger-ui .parameter__in {
+    color: #d2d2d2;
+}
+
+.swagger-ui .info .title {
+    color: #fff;
+}
+
+
+.swagger-ui .dialog-ux .modal-ux {
+    background: #0b0e13;
+    border: 1px solid #111;
+}
+.swagger-ui .dialog-ux .modal-ux-header h3 {
+    color: #fff;
+}
+
+.swagger-ui .dialog-ux .modal-ux-content h4 {
+    color: #fff;
+}
+.swagger-ui .dialog-ux .modal-ux-header {
+    border-bottom: 1px solid #ffffff3d;
+}
+.swagger-ui label {
+    color: #fff;
+}
+.swagger-ui .auth-btn-wrapper {
+    gap: 2%;
+}
+.swagger-ui .dialog-ux .modal-ux-header .close-modal {
+    filter: invert(1);
+}
+.swagger-ui .expand-methods, .swagger-ui .expand-operation {
+    filter: invert(0.8);
+}
+.swagger-ui .opblock-control-arrow {
+    filter: invert(0.9);
+}
+.swagger-ui .opblock-description-wrapper p, .swagger-ui .opblock-external-docs-wrapper p, .swagger-ui .opblock-title_normal p {
+    color: #cacaca;
+}
+.swagger-ui .tab li button.tablinks {
+    color: #cacaca;
+}
+.swagger-ui .response-col_links {
+    color: #cacaca;
+}
+.swagger-ui .model-box-control, .swagger-ui .models-control, .swagger-ui .opblock-summary-control {
+    background: #06090e;
+}
+
+.swagger-ui .opblock.opblock-get .opblock-summary-method {
+    background: #366fa8;
+}
+.swagger-ui .opblock.opblock-post .opblock-summary-method {
+    background: #3aa836;
+}
+.swagger-ui .opblock.opblock-put .opblock-summary-method {
+    background: #a8431b;
+}
+.swagger-ui .opblock.opblock-delete .opblock-summary-method {
+    background: #a81b1b;
+}
